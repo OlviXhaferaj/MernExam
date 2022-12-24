@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-color: #404349;
+  height: 100vh;
+}
+
+form{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 5rem;
+}
+form>div{
+    background-color: #282c34;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 1rem;
+    color: white;
+    width: 30rem;
+    padding-right: 3rem;
+}
+.div-list{
+  width: 50rem;
+  margin: auto;
+}
+.div2{
+  background-color: #282c34;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 0rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.div2:hover{
+  color: red;
+  text-decoration: none;
+}
+
+h1, h2{
+  background-color: rgb(106, 26, 26);
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 1rem;
+  color: rgb(225, 212, 212);
+}
+table{
+  margin-top: 2rem;
+  border: 8px solid;
+}
+.div1{
+  background-color: #282c34;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 1rem;
+  color: white;
+}
+b{
+  font-size: 1.3rem;
+  color: rgb(123, 99, 99);
+}
+.div1>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  list-style:numeric;
+}
